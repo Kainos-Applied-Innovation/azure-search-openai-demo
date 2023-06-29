@@ -13,7 +13,7 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 variables:
- - group: openhack
+ - group: OpenAIChat
 #  - name: serviceConnection
 #    value: openhack-sub-2
 # Use azd provided container image that has azd, infra, multi-language build tools pre-installed.
